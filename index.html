@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>3D Model Viewer</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f2f2f2;display:flex;align-items:center;justify-content:center;height:100vh;}
+    model-viewer{width:90vw;height:80vh;background:#fff;border-radius:8px;box-shadow:0 6px 20px rgba(0,0,0,0.15);}
+  </style>
+</head>
+<body>
+  <model-viewer src="Construction_EsriCampus_3d_mesh-compressed.glb" alt="3D model" camera-controls auto-rotate shadow-intensity="1"></model-viewer>
+</body>
+</html>
