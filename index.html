@@ -1,15 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"/>
-  <title>3D Model Viewer</title>
-  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <meta charset="UTF-8">
+  <title>My 3D Portfolio</title>
   <style>
-    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#555555;display:flex;align-items:center;justify-content:center;height:100vh;}
-    model-viewer {width: 100vw;height: 100vh;display: block;}
+    body { font-family: Arial, sans-serif; background:#555555; color:#fff; display:flex; flex-direction:column; align-items:center; padding:50px; }
+    a { color:#0af; margin:10px 0; font-size:24px; text-decoration:none; }
+    a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
-  <model-viewer src="Construction_EsriCampus_3d_mesh-compressed.glb" alt="3D model" camera-controls auto-rotate shadow-intensity="1"></model-viewer>
+  <h1>My 3D Models</h1>
+  <a href="Construction_EsriCampus_3d_mesh-compressed.html">View Construction_EsriCampus_3d_mesh-compressed.glb</a>
 </body>
 </html>
